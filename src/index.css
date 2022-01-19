@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: calc(50px * 10 + 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    height: 500px;
+    width: 500px;
+}
+
+.cell {
+    float: left;
+    height: 10%;
+    width: 10%;
+    border: solid 1px;
+}
+
+.activeCell {
+    background-color: red;
+}
+
+#btn-container {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-top: 10px;
+    width: 45%;
+    height: 40px;
+}
